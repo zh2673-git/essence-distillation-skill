@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="383" viewBox="0 0 900 383">
+  <defs>
+    <!-- 主背景渐变：深暖色，从上到下微暗 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="30%" y2="100%">
+      <stop offset="0%" style="stop-color:#1C1917;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#252220;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#110F0D;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 中央暖光晕 -->
+    <radialGradient id="centerGlow" cx="50%" cy="42%" r="45%">
+      <stop offset="0%" style="stop-color:#C96442;stop-opacity:0.18" />
+      <stop offset="40%" style="stop-color:#C96442;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#C96442;stop-opacity:0" />
+    </radialGradient>
+
+    <!-- 右上角冷色光晕 -->
+    <radialGradient id="topRightGlow" cx="78%" cy="15%" r="35%">
+      <stop offset="0%" style="stop-color:#D4A76A;stop-opacity:0.10" />
+      <stop offset="100%" style="stop-color:#D4A76A;stop-opacity:0" />
+    </radialGradient>
+
+    <!-- 左下角暖色光晕 -->
+    <radialGradient id="bottomLeftGlow" cx="22%" cy="85%" r="30%">
+      <stop offset="0%" style="stop-color:#C96442;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#C96442;stop-opacity:0" />
+    </radialGradient>
+
+    <!-- 金色渐变（用于装饰线） -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D4A76A;stop-opacity:0" />
+      <stop offset="20%" style="stop-color:#D4A76A;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#E8C98A;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#D4A76A;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#D4A76A;stop-opacity:0" />
+    </linearGradient>
+
+    <!-- accent 渐变 -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C96442;stop-opacity:0" />
+      <stop offset="30%" style="stop-color:#C96442;stop-opacity:0.8" />
+      <stop offset="70%" style="stop-color:#C96442;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#C96442;stop-opacity:0" />
+    </linearGradient>
+
+    <!-- 散点纹理 -->
+    <pattern id="scatterDots" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="15" r="1.2" fill="#D4A76A" opacity="0.15" />
+      <circle cx="55" cy="40" r="0.8" fill="#D4A76A" opacity="0.10" />
+      <circle cx="10" cy="60" r="1.0" fill="#D4A76A" opacity="0.12" />
+      <circle cx="70" cy="72" r="0.6" fill="#C96442" opacity="0.08" />
+      <circle cx="40" cy="8" r="0.7" fill="#C96442" opacity="0.10" />
+    </pattern>
+  </defs>
+
+  <!-- ===== 背景层 ===== -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#centerGlow)" />
+  <rect width="100%" height="100%" fill="url(#topRightGlow)" />
+  <rect width="100%" height="100%" fill="url(#bottomLeftGlow)" />
+  <rect width="100%" height="100%" fill="url(#scatterDots)" />
+
+  <!-- ===== 全尺寸专属装饰（方形裁剪区外） ===== -->
+
+  <!-- 右侧大弧线（x>641 裁剪区外，全尺寸可见） -->
+  <path d="M 660,-30 A 280,280 0 0,1 950,250" fill="none" stroke="#D4A76A" stroke-width="1.5" opacity="0.25" />
+  <path d="M 680,-20 A 300,300 0 0,1 930,280" fill="none" stroke="#D4A76A" stroke-width="0.8" opacity="0.15" />
+
+  <!-- 左侧大弧线（x<259 裁剪区外，全尺寸可见） -->
+  <path d="M 240,413 A 280,280 0 0,1 -50,120" fill="none" stroke="#C96442" stroke-width="1.5" opacity="0.20" />
+  <path d="M 220,403 A 300,300 0 0,1 -30,90" fill="none" stroke="#C96442" stroke-width="0.8" opacity="0.12" />
+
+  <!-- 右侧竖向装饰线组（裁剪区外） -->
+  <line x1="840" y1="40" x2="840" y2="343" stroke="#D4A76A" stroke-width="0.6" opacity="0.18" />
+  <line x1="855" y1="60" x2="855" y2="323" stroke="#D4A76A" stroke-width="0.3" opacity="0.10" />
+
+  <!-- 左侧竖向装饰线组（裁剪区外） -->
+  <line x1="60" y1="40" x2="60" y2="343" stroke="#C96442" stroke-width="0.6" opacity="0.15" />
+  <line x1="45" y1="60" x2="45" y2="323" stroke="#C96442" stroke-width="0.3" opacity="0.08" />
+
+  <!-- ===== 中心区域：极简留白 + 宇宙/哲学意象 ===== -->
+
+  <!-- 倾斜轨道椭圆（行星轨道，宇宙秩序） -->
+  <ellipse cx="450" cy="175" rx="170" ry="45" fill="none" stroke="#D4A76A" stroke-width="0.8" opacity="0.22" transform="rotate(-8 450 175)" />
+  <ellipse cx="450" cy="175" rx="170" ry="45" fill="none" stroke="#D4A76A" stroke-width="0.4" opacity="0.10" transform="rotate(22 450 175)" />
+
+  <!-- 微星点缀（不同亮度，深空感） -->
+  <circle cx="330" cy="60" r="1.8" fill="#E8C98A" opacity="0.50" />
+  <circle cx="545" cy="52" r="1.2" fill="#D4A76A" opacity="0.35" />
+  <circle cx="590" cy="310" r="1.5" fill="#E8C98A" opacity="0.40" />
+  <circle cx="370" cy="300" r="1.0" fill="#D4A76A" opacity="0.30" />
+  <circle cx="295" cy="180" r="0.8" fill="#D4A76A" opacity="0.20" />
+  <circle cx="510" cy="250" r="1.3" fill="#E8C98A" opacity="0.30" />
+  <circle cx="420" cy="340" r="0.7" fill="#D4A76A" opacity="0.25" />
+
+  <!-- 右上小月牙（天体意象，阴晴圆缺） -->
+  <circle cx="596" cy="52" r="10" fill="#D4A76A" opacity="0.15" />
+  <circle cx="600" cy="49" r="9" fill="#1C1917" opacity="0.85" />
+
+  <!-- 四角 L 形角标（方形裁剪区框线） -->
+  <polyline points="271,22 271,8 291,8" fill="none" stroke="#D4A76A" stroke-width="1.5" opacity="0.45" stroke-linecap="round" />
+  <polyline points="609,8 629,8 629,22" fill="none" stroke="#D4A76A" stroke-width="1.5" opacity="0.45" stroke-linecap="round" />
+  <polyline points="271,361 271,375 291,375" fill="none" stroke="#D4A76A" stroke-width="1.5" opacity="0.45" stroke-linecap="round" />
+  <polyline points="609,375 629,375 629,361" fill="none" stroke="#D4A76A" stroke-width="1.5" opacity="0.45" stroke-linecap="round" />
+
+  <!-- ===== 顶部/底部装饰线 ===== -->
+  <line x1="30" y1="18" x2="870" y2="18" stroke="url(#goldGrad)" stroke-width="1" />
+  <line x1="30" y1="365" x2="870" y2="365" stroke="url(#goldGrad)" stroke-width="1" />
+
+  <!-- ===== 标题区域（中心留白区的视觉重心） ===== -->
+  <text x="450" y="130"
+        font-family="-apple-system,BlinkMacSystemFont,PingFang SC,Noto Sans SC,Microsoft YaHei,sans-serif"
+        font-size="34" font-weight="700" fill="#F5F0EB" text-anchor="middle" letter-spacing="1">
+    我把苏格拉底的思想做成了苏格拉底.skill
+  </text>
+
+  <!-- 标题下 accent 横线 -->
+  <line x1="390" y1="148" x2="510" y2="148" stroke="#C96442" stroke-width="2.5" stroke-linecap="round" opacity="0.80" />
+
+  <!-- 作者/来源 -->
+  <text x="450" y="178"
+        font-family="-apple-system,BlinkMacSystemFont,PingFang SC,Noto Sans SC,Microsoft YaHei,sans-serif"
+        font-size="13" fill="#A89F95" text-anchor="middle" letter-spacing="1.5" opacity="0.90">
+    本质蒸馏
+  </text>
+
+  <!-- 底部副标题 -->
+  <text x="450" y="343"
+        font-family="-apple-system,BlinkMacSystemFont,PingFang SC,Noto Sans SC,Microsoft YaHei,sans-serif"
+        font-size="11" fill="#A89F95" text-anchor="middle" letter-spacing="0.8" opacity="0.60">
+    READ MORE →
+  </text>
+</svg>

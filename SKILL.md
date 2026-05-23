@@ -37,8 +37,9 @@ description: |
 **扫描方式**：执行时扫描 `examples/` 目录，读取每个子目录下 `SKILL.md` 的 frontmatter（name + description）即可获取实例信息。不在本文件中硬编码实例列表，避免遗漏和不同步。
 
 **当前实例**（由 README.md 动态维护）：
-- `examples/ni-hai-sha/` — 倪海厦
-- `examples/socrates/` — 苏格拉底
+- `examples/nihaixia.skill/` — 倪海厦
+- `examples/socrates.skill/` — 苏格拉底
+- `examples/laozi.skill/` — 老子
 
 ---
 
@@ -546,7 +547,7 @@ few-shot生成后，做最终检查：
 │   ├── extraction-framework.md           # 三阶蒸馏方法论详解
 │   └── skill-template.md                 # 认知操作系统Skill模板
 └── examples/                             # 蒸馏实例（每个都是自包含的）
-    └── ni-hai-sha/                       # 实例1：倪海厦
+    └── nihaixia.skill/                   # 实例1：倪海厦
         ├── SKILL.md                      # 倪海厦认知操作系统
         └── references/
             ├── research/                 # 7个Agent调研结果

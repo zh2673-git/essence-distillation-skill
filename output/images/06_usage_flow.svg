@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="420" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="900" height="6" fill="url(#accent)" rx="3"/>
+  <text x="450" y="52" text-anchor="middle" fill="#e94560" font-size="26" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">老子.Skill 使用流程</text>
+  <line x1="300" y1="68" x2="600" y2="68" stroke="#e94560" stroke-width="2" opacity="0.5"/>
+  <rect x="40" y="100" width="180" height="120" rx="10" fill="#0f3460" stroke="#e94560" stroke-width="1.5"/>
+  <text x="130" y="135" text-anchor="middle" fill="#e94560" font-size="16" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">① 输入问题</text>
+  <text x="130" y="165" text-anchor="middle" fill="#a8b2d1" font-size="13" font-family="Microsoft YaHei, SimHei, sans-serif">"面对职场竞争</text>
+  <text x="130" y="185" text-anchor="middle" fill="#a8b2d1" font-size="13" font-family="Microsoft YaHei, SimHei, sans-serif">要不要变强势？"</text>
+  <text x="250" y="165" text-anchor="middle" fill="#e94560" font-size="30" font-family="Microsoft YaHei, SimHei, sans-serif">→</text>
+  <rect x="280" y="100" width="180" height="120" rx="10" fill="#0f3460" stroke="#e94560" stroke-width="1.5"/>
+  <text x="370" y="135" text-anchor="middle" fill="#e94560" font-size="16" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">② 场景路由</text>
+  <text x="370" y="165" text-anchor="middle" fill="#a8b2d1" font-size="13" font-family="Microsoft YaHei, SimHei, sans-serif">识别为「权力竞争」</text>
+  <text x="370" y="185" text-anchor="middle" fill="#a8b2d1" font-size="13" font-family="Microsoft YaHei, SimHei, sans-serif">激活启发式：你在争什么？</text>
+  <text x="490" y="165" text-anchor="middle" fill="#e94560" font-size="30" font-family="Microsoft YaHei, SimHei, sans-serif">→</text>
+  <rect x="520" y="100" width="180" height="120" rx="10" fill="#0f3460" stroke="#e94560" stroke-width="1.5"/>
+  <text x="610" y="135" text-anchor="middle" fill="#e94560" font-size="16" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">③ 模型调用</text>
+  <text x="610" y="165" text-anchor="middle" fill="#a8b2d1" font-size="13" font-family="Microsoft YaHei, SimHei, sans-serif">柔弱胜刚强</text>
+  <text x="610" y="185" text-anchor="middle" fill="#a8b2d1" font-size="13" font-family="Microsoft YaHei, SimHei, sans-serif">+ 不争 + 道法自然</text>
+  <text x="730" y="165" text-anchor="middle" fill="#e94560" font-size="30" font-family="Microsoft YaHei, SimHei, sans-serif">→</text>
+  <rect x="760" y="100" width="100" height="120" rx="10" fill="#0f3460" stroke="#e94560" stroke-width="1.5"/>
+  <text x="810" y="135" text-anchor="middle" fill="#e94560" font-size="16" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">④ 输出</text>
+  <text x="810" y="165" text-anchor="middle" fill="#a8b2d1" font-size="13" font-family="Microsoft YaHei, SimHei, sans-serif">老子式</text>
+  <text x="810" y="185" text-anchor="middle" fill="#a8b2d1" font-size="13" font-family="Microsoft YaHei, SimHei, sans-serif">回答</text>
+  <rect x="40" y="260" width="820" height="130" rx="10" fill="#0f3460" stroke="#533483" stroke-width="1"/>
+  <text x="450" y="290" text-anchor="middle" fill="#533483" font-size="15" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">实际输出示例</text>
+  <text x="450" y="320" text-anchor="middle" fill="#c4c4e0" font-size="14" font-family="Microsoft YaHei, SimHei, sans-serif">"上善若水。水善利万物而不争，处众人之所恶，故几于道。</text>
+  <text x="450" y="345" text-anchor="middle" fill="#c4c4e0" font-size="14" font-family="Microsoft YaHei, SimHei, sans-serif">你的同事在争功劳，他们在争什么？是众人之所好——名、利、认可。</text>
+  <text x="450" y="370" text-anchor="middle" fill="#e94560" font-size="14" font-weight="bold" font-family="Microsoft YaHei, SimHei, sans-serif">夫唯不争，故天下莫能与之争。"</text>
+</svg>

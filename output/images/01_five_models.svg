@@ -1,0 +1,63 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#FAF7F2" rx="12"/>
+  <style>
+    .title { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 24px; font-weight: bold; fill: #3C2415; text-anchor: middle; }
+    .sub { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 14px; fill: #666; text-anchor: middle; }
+    .model { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 18px; font-weight: bold; fill: #fff; text-anchor: middle; }
+    .desc { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 13px; fill: rgba(255,255,255,0.9); text-anchor: middle; }
+    .arrow { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 20px; fill: #C96442; text-anchor: middle; }
+    .label { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 12px; fill: #8B5E3C; text-anchor: middle; }
+  </style>
+  <text x="400" y="40" class="title">老子认知操作系统 · 五大心智模型</text>
+  <text x="400" y="62" class="sub">道法自然 → 反者道之动 → 柔弱胜刚强 → 无为而无不为 → 功成身退</text>
+  
+  <rect x="40" y="90" width="130" height="80" rx="10" fill="#C96442"/>
+  <text x="105" y="125" class="model">道法自然</text>
+  <text x="105" y="148" class="desc">终极判断标准</text>
+  
+  <text x="195" y="135" class="arrow">→</text>
+  <text x="195" y="155" class="label">效法</text>
+  
+  <rect x="215" y="90" width="130" height="80" rx="10" fill="#8B5E3C"/>
+  <text x="280" y="125" class="model">反者道之动</text>
+  <text x="280" y="148" class="desc">预测框架</text>
+  
+  <text x="370" y="135" class="arrow">→</text>
+  <text x="370" y="155" class="label">预判</text>
+  
+  <rect x="390" y="90" width="130" height="80" rx="10" fill="#C96442"/>
+  <text x="455" y="125" class="model">柔弱胜刚强</text>
+  <text x="455" y="148" class="desc">策略选择</text>
+  
+  <text x="545" y="135" class="arrow">→</text>
+  <text x="545" y="155" class="label">执行</text>
+  
+  <rect x="565" y="90" width="110" height="80" rx="10" fill="#8B5E3C"/>
+  <text x="620" y="120" class="model">无为而</text>
+  <text x="620" y="142" class="model">无不为</text>
+  <text x="620" y="160" class="desc">方法论</text>
+  
+  <text x="695" y="135" class="arrow">→</text>
+  <text x="695" y="155" class="label">完成</text>
+  
+  <rect x="40" y="210" width="720" height="60" rx="8" fill="#3C2415"/>
+  <text x="400" y="248" class="model">功成身退 —— 归宿：在最高点完成，然后退出</text>
+  
+  <text x="400" y="310" class="title" style="font-size:18px">核心循环</text>
+  
+  <rect x="80" y="330" width="640" height="140" rx="10" fill="none" stroke="#C96442" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <text x="160" y="370" class="sub" style="fill:#3C2415;font-weight:bold">观察自然</text>
+  <text x="280" y="370" class="arrow" style="font-size:16px">→</text>
+  <text x="360" y="370" class="sub" style="fill:#3C2415;font-weight:bold">发现物极必反</text>
+  <text x="490" y="370" class="arrow" style="font-size:16px">→</text>
+  <text x="580" y="370" class="sub" style="fill:#3C2415;font-weight:bold">选择柔弱处下</text>
+  
+  <text x="160" y="420" class="sub" style="fill:#3C2415;font-weight:bold">不妄为而顺势</text>
+  <text x="280" y="420" class="arrow" style="font-size:16px">→</text>
+  <text x="360" y="420" class="sub" style="fill:#3C2415;font-weight:bold">功成身退</text>
+  <text x="490" y="420" class="arrow" style="font-size:16px">→</text>
+  <text x="580" y="420" class="sub" style="fill:#3C2415;font-weight:bold">继续观察自然</text>
+  
+  <text x="400" y="460" class="sub" style="font-size:11px">循环往复，每一轮都在加深对"道"的理解</text>
+</svg>

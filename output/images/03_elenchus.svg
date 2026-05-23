@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <rect width="800" height="420" fill="#FAF7F2" rx="12"/>
+  <style>
+    .title { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 22px; font-weight: bold; fill: #3C2415; text-anchor: middle; }
+    .sub { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 13px; fill: #666; text-anchor: middle; }
+    .step-num { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 14px; font-weight: bold; fill: #C96442; text-anchor: middle; }
+    .step-title { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 14px; font-weight: bold; fill: #3C2415; }
+    .step-desc { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 12px; fill: #666; }
+    .arrow { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 18px; fill: #C96442; text-anchor: middle; }
+  </style>
+  <text x="400" y="38" class="title">诘问法(Elenchus)运行流程</text>
+  <text x="400" y="58" class="sub">苏格拉底的核心方法论——通过追问揭示信念矛盾</text>
+
+  <circle cx="100" cy="130" r="30" fill="#C96442"/>
+  <text x="100" y="135" class="step-num" fill="#fff">1</text>
+  <text x="145" y="125" class="step-title">对话者提出论题P</text>
+  <text x="145" y="143" class="step-desc">（苏格拉底认为P是错误的）</text>
+
+  <text x="400" y="135" class="arrow">↓</text>
+
+  <circle cx="100" cy="210" r="30" fill="#B5583A"/>
+  <text x="100" y="215" class="step-num" fill="#fff">2</text>
+  <text x="145" y="205" class="step-title">获得辅助前提Q、R的同意</text>
+  <text x="145" y="223" class="step-desc">逐步引导对话者承认相关前提</text>
+
+  <text x="400" y="215" class="arrow">↓</text>
+
+  <circle cx="100" cy="290" r="30" fill="#8B5E3C"/>
+  <text x="100" y="295" class="step-num" fill="#fff">3</text>
+  <text x="145" y="285" class="step-title">揭示Q、R与P的矛盾</text>
+  <text x="145" y="303" class="step-desc">信念体系内部的不一致被暴露</text>
+
+  <text x="400" y="295" class="arrow">↓</text>
+
+  <circle cx="100" cy="370" r="30" fill="#3C2415"/>
+  <text x="100" y="375" class="step-num" fill="#fff">4</text>
+  <text x="145" y="365" class="step-title">P被证伪 → 困惑(Aporia)</text>
+  <text x="145" y="383" class="step-desc">诘问法是"破"而非"立"，困惑是智慧起点</text>
+
+  <rect x="530" y="100" width="230" height="280" rx="10" fill="none" stroke="#C96442" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="645" y="130" class="sub" fill="#8B5E3C">关键特征</text>
+  <text x="645" y="160" class="step-desc" text-anchor="middle">✅ 揭示矛盾而非提供答案</text>
+  <text x="645" y="190" class="step-desc" text-anchor="middle">✅ "说你所信"原则</text>
+  <text x="645" y="220" class="step-desc" text-anchor="middle">✅ 困惑是智慧的起点</text>
+  <text x="645" y="250" class="step-desc" text-anchor="middle">⚠️ 只能"破"不能"立"</text>
+  <text x="645" y="280" class="step-desc" text-anchor="middle">⚠️ 对话常以Aporia结束</text>
+  <text x="645" y="310" class="step-desc" text-anchor="middle">⚠️ 非P未必被证实</text>
+</svg>

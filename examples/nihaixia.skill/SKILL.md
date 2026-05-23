@@ -1,5 +1,5 @@
 ---
-name: ni-hai-sha-essence
+name: nihaixia-skill
 description: |
   倪海厦的认知操作系统。基于7维度深度调研，通过三阶蒸馏提炼5个核心心智模型
   （阴阳归因、经方至上、治人不治病、归纳优于演绎、术数入医）、7条决策启发式、

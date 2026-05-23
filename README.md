@@ -105,7 +105,7 @@ Phase 5   递归深入（核心模型可无限递归三阶蒸馏）
 | 归纳优于演绎 | 中国文化强在归纳万变不离其宗 | 唐容川影响→西医越分越细病人越多 |
 | 术数入医 | 易经/命理/风水与中医底层逻辑相通 | 算命起家→五术兼修→文化闭环 |
 
-详见 [examples/ni-hai-sha/](examples/ni-hai-sha/)
+详见 [examples/nihaixia.skill/](examples/nihaixia.skill/)
 
 ### 苏格拉底
 
@@ -121,7 +121,7 @@ Phase 5   递归深入（核心模型可无限递归三阶蒸馏）
 | 灵魂优先 | 照顾灵魂比照顾身体/财富更重要 | 从自然哲学转向→用死亡验证 |
 | 宁受不义不行不义 | 遭受不义是恶，但行不义是更大的恶 | 拒绝三十僭主命令→用死亡验证 |
 
-详见 [examples/socrates/](examples/socrates/)
+详见 [examples/socrates.skill/](examples/socrates.skill/)
 
 ---
 
@@ -134,13 +134,13 @@ essence-distillation-skill/
 │   ├── extraction-framework.md           # 三阶蒸馏方法论详解
 │   └── skill-template.md                 # 认知操作系统Skill模板
 └── examples/                             # 蒸馏实例（每个自包含）
-    ├── ni-hai-sha/                       # 实例：倪海厦
+    ├── nihaixia.skill/                  # 实例：倪海厦
     │   ├── SKILL.md                      # 认知操作系统
     │   └── references/
     │       ├── research/                 # 7个Agent调研结果
     │       ├── essence/                  # 三阶蒸馏结果
     │       └── sources/                  # 一手素材
-    └── socrates/                         # 实例：苏格拉底
+    └── socrates.skill/                  # 实例：苏格拉底
         ├── SKILL.md                      # 认知操作系统
         └── references/
             ├── research/                 # 7个Agent调研结果
@@ -162,7 +162,7 @@ essence-distillation-skill/
 1. 阅读根 `SKILL.md` 了解完整流程
 2. 参考 `references/extraction-framework.md` 理解方法论细节
 3. 参考 `references/skill-template.md` 了解输出格式
-4. 以 `examples/ni-hai-sha/` 为范例，自行蒸馏
+4. 以 `examples/nihaixia.skill/` 为范例，自行蒸馏
 
 ---
 

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <rect width="800" height="400" fill="#FAF7F2" rx="12"/>
+  <style>
+    .title { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 22px; font-weight: bold; fill: #3C2415; text-anchor: middle; }
+    .sub { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 14px; fill: #666; text-anchor: middle; }
+    .box-title { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 16px; font-weight: bold; fill: #fff; text-anchor: middle; }
+    .box-desc { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 12px; fill: rgba(255,255,255,0.9); text-anchor: middle; }
+    .arrow { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 20px; fill: #C96442; text-anchor: middle; }
+    .label { font-family: 'PingFang SC','Microsoft YaHei',sans-serif; font-size: 11px; fill: #8B5E3C; text-anchor: middle; }
+  </style>
+  <text x="400" y="40" class="title">三阶蒸馏方法论</text>
+  <text x="400" y="62" class="sub">是什么 → 为什么 → 怎么做</text>
+
+  <rect x="60" y="100" width="180" height="120" rx="10" fill="#C96442"/>
+  <text x="150" y="145" class="box-title">是什么</text>
+  <text x="150" y="170" class="box-desc">提取核心心智模型</text>
+  <text x="150" y="190" class="box-desc">识别认知结构</text>
+
+  <rect x="310" y="100" width="180" height="120" rx="10" fill="#8B5E3C"/>
+  <text x="400" y="145" class="box-title">为什么</text>
+  <text x="400" y="170" class="box-desc">追溯根因</text>
+  <text x="400" y="190" class="box-desc">定位认知固化点</text>
+
+  <rect x="560" y="100" width="180" height="120" rx="10" fill="#3C2415"/>
+  <text x="650" y="145" class="box-title">怎么做</text>
+  <text x="650" y="170" class="box-desc">决策启发式</text>
+  <text x="650" y="190" class="box-desc">场景路由 + 表达DNA</text>
+
+  <text x="265" y="165" class="arrow">→</text>
+  <text x="515" y="165" class="arrow">→</text>
+
+  <rect x="100" y="280" width="600" height="80" rx="10" fill="none" stroke="#C96442" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="400" y="310" class="label">× 坡度理解（先点出概念 → 建立联系 → 详细解释）</text>
+  <text x="400" y="335" class="label">× 类-属性-方法-路由（认知系统 = Class，心智模型 = 属性，启发式 = 方法，场景 = 路由）</text>
+</svg>

@@ -1,0 +1,65 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <rect width="800" height="560" fill="#FAF7F2" rx="12"/>
+  <style>
+    .title { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 22px; font-weight: bold; fill: #3C2415; text-anchor: middle; }
+    .sub { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 13px; fill: #666; text-anchor: middle; }
+    .route-name { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 13px; font-weight: bold; fill: #3C2415; }
+    .route-desc { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 11px; fill: #666; }
+    .model-tag { font-family: 'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size: 10px; fill: #C96442; font-weight: bold; }
+  </style>
+  <text x="400" y="38" class="title">七条场景路由</text>
+  <text x="400" y="58" class="sub">不同情境 → 激活不同心智模型组合</text>
+
+  <rect x="30" y="75" width="355" height="60" rx="8" fill="#FFF5EE" stroke="#C96442" stroke-width="1"/>
+  <text x="45" y="97" class="route-name">路由1：面对声称"知道"的人</text>
+  <text x="45" y="115" class="route-desc">政治家/专家/权威声称知道 → 质问定义</text>
+  <text x="310" y="107" class="model-tag">自知无知+诘问法</text>
+
+  <rect x="415" y="75" width="355" height="60" rx="8" fill="#FFF5EE" stroke="#C96442" stroke-width="1"/>
+  <text x="430" y="97" class="route-name">路由2：面对道德选择</text>
+  <text x="430" y="115" class="route-desc">利益vs正义 / 安全vs真理</text>
+  <text x="680" y="107" class="model-tag">灵魂优先+宁受不义</text>
+
+  <rect x="30" y="150" width="355" height="60" rx="8" fill="#FFF5EE" stroke="#8B5E3C" stroke-width="1"/>
+  <text x="45" y="172" class="route-name">路由3：面对无知/困惑</text>
+  <text x="45" y="190" class="route-desc">对话僵局 → 困惑是智慧的开始</text>
+  <text x="310" y="182" class="model-tag">自知无知+继续追问</text>
+
+  <rect x="415" y="150" width="355" height="60" rx="8" fill="#FFF5EE" stroke="#8B5E3C" stroke-width="1"/>
+  <text x="430" y="172" class="route-name">路由4：面对权威/传统</text>
+  <text x="430" y="190" class="route-desc">神谕/法律/多数意见 → 审视优先</text>
+  <text x="680" y="182" class="model-tag">审视优先+不盲从</text>
+
+  <rect x="30" y="225" width="355" height="60" rx="8" fill="#FFF5EE" stroke="#C96442" stroke-width="1"/>
+  <text x="45" y="247" class="route-name">路由5：面对死亡/恐惧</text>
+  <text x="45" y="265" class="route-desc">死亡不是最大的恶，不义才是</text>
+  <text x="310" y="257" class="model-tag">灵魂优先+德性即知识</text>
+
+  <rect x="415" y="225" width="355" height="60" rx="8" fill="#FFF5EE" stroke="#C96442" stroke-width="1"/>
+  <text x="430" y="247" class="route-name">路由6：面对教学/辅导</text>
+  <text x="430" y="265" class="route-desc">不直接给答案 → 帮助对方自己发现</text>
+  <text x="680" y="257" class="model-tag">产婆术+不给答案</text>
+
+  <rect x="30" y="300" width="740" height="60" rx="8" fill="#FFF5EE" stroke="#3C2415" stroke-width="1.5"/>
+  <text x="45" y="322" class="route-name">路由7：面对自我审视</text>
+  <text x="45" y="340" class="route-desc">未经审视的生活不值得过 → 定期审视信念、价值观、行为</text>
+
+  <rect x="30" y="390" width="740" height="140" rx="10" fill="none" stroke="#C96442" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="400" y="420" class="sub" fill="#8B5E3C">路由机制的设计逻辑</text>
+
+  <rect x="80" y="440" width="200" height="50" rx="8" fill="#C96442"/>
+  <text x="180" y="462" style="font-family:'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size:14px; fill:#fff; text-anchor:middle; font-weight:bold;">输入：情境类型</text>
+  <text x="180" y="480" style="font-family:'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size:11px; fill:rgba(255,255,255,0.9); text-anchor:middle;">"面对声称知道的人"</text>
+
+  <text x="310" y="468" style="font-family:'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size:20px; fill:#C96442; text-anchor:middle;">→</text>
+
+  <rect x="340" y="440" width="200" height="50" rx="8" fill="#8B5E3C"/>
+  <text x="440" y="462" style="font-family:'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size:14px; fill:#fff; text-anchor:middle; font-weight:bold;">匹配路由</text>
+  <text x="440" y="480" style="font-family:'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size:11px; fill:rgba(255,255,255,0.9); text-anchor:middle;">路由1：自知无知+诘问法</text>
+
+  <text x="570" y="468" style="font-family:'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size:20px; fill:#C96442; text-anchor:middle;">→</text>
+
+  <rect x="600" y="440" width="150" height="50" rx="8" fill="#3C2415"/>
+  <text x="675" y="462" style="font-family:'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size:14px; fill:#fff; text-anchor:middle; font-weight:bold;">输出策略</text>
+  <text x="675" y="480" style="font-family:'Microsoft YaHei','SimHei','Noto Sans SC',sans-serif; font-size:11px; fill:rgba(255,255,255,0.9); text-anchor:middle;">先质疑再追问</text>
+</svg>
