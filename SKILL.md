@@ -40,6 +40,7 @@ description: |
 - `examples/nihaixia.skill/` — 倪海厦
 - `examples/socrates.skill/` — 苏格拉底
 - `examples/laozi.skill/` — 老子
+- `examples/luxun.skill/` — 鲁迅
 
 ---
 
